@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Checkbox from "./Checkbox";
+import Button from "./Button";
 import "./App.css";
 
 function App() {
@@ -13,12 +14,6 @@ function App() {
   );
 }
 
-function Button({ count, setCount }) {
-  return (
-    <button onClick={() => setCount((count) => count + 1)}>
-      count is {count}
-    </button>
-  );
-}
+
 
 export default App;
